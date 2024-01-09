@@ -1,4 +1,4 @@
-# example-percy-java-selenium
+# PercyBrowser
 Example app used by the [Percy Java Selenium tutorial](https://docs.percy.io/docs/java-selenium-testing-tutorial) demonstrating Percy's Java Selenium integration.
 
 Based on the [TodoMVC](https://github.com/tastejs/todomvc) [VanillaJS](https://github.com/tastejs/todomvc/tree/master/examples/vanillajs)
@@ -23,14 +23,14 @@ npm](https://nodejs.org/en/download/) and
 Clone the example application and install dependencies:
 
 ```bash
-$ git clone https://github.com/percy/example-percy-java-selenium.git
-$ cd example-percy-java-selenium
+$ git clone https://github.com/percy/PercyBrowser.git
+$ cd PercyBrowser
 $ make install
 ```
 
 The example app and its tests will now be ready to go. You can explore the app
 by opening the
-[`src/main/resources/index.html`](https://github.com/percy/example-percy-java-selenium/blob/master/src/main/resources/index.html)
+[`src/main/resources/index.html`](https://github.com/percy/PercyBrowser/blob/master/src/main/resources/index.html)
 file in a browser.
 
 ### Step 2

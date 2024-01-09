@@ -13,7 +13,7 @@ clean:
 
 serve:
 	mvn package
-	java -cp target/example-percy-java-selenium-1.0-SNAPSHOT.jar io.percy.examplepercyjavaselenium.App
+	java -cp target/PercyBrowser-1.0-SNAPSHOT.jar io.percy.examplepercyjavaselenium.App
 
 test: install
 	$(NPM)/percy exec -- mvn test
